@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup
 import re
 import time
 
-genai.configure(api_key="AIzaSyDxPlOXS_Jv62mr9e1wh0TQ5wQE9ntP45Y")
+genai.configure(api_key="")
 model = genai.GenerativeModel("gemini-1.5-flash")
 
 def markdown_to_plain_text(markdown_content):
